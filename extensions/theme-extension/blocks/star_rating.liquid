@@ -11,10 +11,13 @@
 {% schema %}
 {
   "name": "Star Rating",
-  "target": "section",
+  "tag": "section",
   "settings": [
     { "type": "product", "id": "product", "label": "product", "autofill": true },
     { "type": "color", "id": "colour", "label": "Star Colour", "default": "#ff0000" }
+  ],
+  "presets": [
+    { "name": "star_rating"}
   ]
 }
 {% endschema %}
